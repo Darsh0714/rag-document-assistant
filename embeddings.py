@@ -2,7 +2,7 @@ from sentence_transformers import SentenceTransformer
 from loader import load_pdf
 from chuncking import split_documents
 
-model=SentenceTransformer("all-MiniLM-L6-v2")
+model=SentenceTransformer("BAAI/bge-small-en-v1.5")
 
 docs=load_pdf("data/sample.pdf")
 chunks=split_documents(docs)

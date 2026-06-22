@@ -1,7 +1,11 @@
 from langchain_community.document_loaders import PyPDFLoader
+import os
 def load_pdf(file_path):
      loader=PyPDFLoader(file_path)
      documents=loader.load()
+     filename=os.path.basename(file_path)
+     for doc in documents:
+          doc.metadata["filename"]=filename
      return documents
 
 if __name__=="__main__":
