@@ -18,7 +18,8 @@ The system uses Retrieval-Augmented Generation (RAG) to retrieve relevant docume
 **Tech Stack**
 
 **Frontend**
-- Streamlit  
+- Streamlit
+
 **Backend**
 - Python
   
@@ -67,15 +68,15 @@ Generated Answer
 Streamlit Interface
 
 **How It Works**
-1.User uploads a PDF document.
-2.The document is loaded and split into manageable chunks.
-3.Embeddings are generated for each chunk.
-4.Embeddings are stored in a FAISS vector database.
-5.When a user asks a question:
-6.The query is converted into embeddings.
-7.Similar document chunks are retrieved.
-8.Retrieved context is passed to the LLM.
-9.The model generates an answer grounded in the document content.
+1.User uploads a PDF document.  
+2.The document is loaded and split into manageable chunks.  
+3.Embeddings are generated for each chunk.  
+4.Embeddings are stored in a FAISS vector database.  
+5.When a user asks a question:  
+6.The query is converted into embeddings.  
+7.Similar document chunks are retrieved.  
+8.Retrieved context is passed to the LLM.  
+9.The model generates an answer grounded in the document content.  
 
 **Installation**
 **Clone the Repository**
