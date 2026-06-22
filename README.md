@@ -1,4 +1,4 @@
-**RAG Document Assistant**
+## RAG Document Assistant
 An AI-powered Document Question Answering application that allows users to upload PDF documents and ask natural language questions about their content. 
 The system uses Retrieval-Augmented Generation (RAG) to retrieve relevant document sections and generate context-aware answers.
 
@@ -15,7 +15,7 @@ The system uses Retrieval-Augmented Generation (RAG) to retrieve relevant docume
 - Local LLM inference without reliance on external APIs
 - Modular architecture supporting future enhancements and scalability
 
-**Tech Stack**
+## Tech Stack
 
 **Frontend**
 - Streamlit
@@ -70,7 +70,7 @@ Generated Answer
 Streamlit Interface
 ``` 
 
-**How It Works**
+## How It Works
 
 1.User uploads a PDF document.  
 2.The document is loaded and split into manageable chunks.  
@@ -82,25 +82,26 @@ Streamlit Interface
 8.Retrieved context is passed to the LLM.  
 9.The model generates an answer grounded in the document content.  
 
-**Installation**
-**Clone the Repository**
-git clone "https://github.com/Darsh0714/rag-document-assistant"
-cd rag-document-assistant
-**Create Virtual Environment**
-python -m venv venv
-Activate Virtual Environment
-**Windows:**
-venv\Scripts\activate
-**Install Dependencies**
-pip install -r requirements.txt
-**Start Ollama**
-Ensure Ollama is installed and Phi-3 is available:
-ollama pull phi3
-ollama serve
-**Run the Application**
-streamlit run app.py
+## Installation
 
-**Sample Use Cases**
+**Clone the Repository**  
+git clone "https://github.com/Darsh0714/rag-document-assistant"  
+cd rag-document-assistant  
+**Create Virtual Environment**  
+python -m venv venv  
+Activate Virtual Environment  
+**Windows:**  
+venv\Scripts\activate  
+**Install Dependencies**  
+pip install -r requirements.txt  
+**Start Ollama**  
+Ensure Ollama is installed and Phi-3 is available    
+ollama pull phi3  
+ollama serve    
+**Run the Application**  
+streamlit run app.py  
+
+## Sample Use Cases
 - Business report analysis
 - Research paper summarization
 - Policy document Q&A
@@ -108,7 +109,7 @@ streamlit run app.py
 - Educational content exploration
 - Technical documentation search
 
-**Learning Outcomes**
+## Learning Outcomes
 
 - Retrieval-Augmented Generation (RAG)
 - LangChain pipelines
@@ -119,7 +120,7 @@ streamlit run app.py
 - Local LLM deployment using Ollama
 - Semantic search systems
 
-**Future Enhancements**
+## Future Enhancements
 - Multiple PDF support
 - Conversation memory
 - Source citations with page numbers
@@ -129,6 +130,7 @@ streamlit run app.py
 - Cloud deployment
 - User authentication
 
-_**Author**_
-_**Darshini R**
+## Author
+
+_**Darshini R**  
 **Gen AI Enthusiast**_
