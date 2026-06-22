@@ -84,22 +84,47 @@ Streamlit Interface
 
 ## Installation
 
-**Clone the Repository**  
-git clone "https://github.com/Darsh0714/rag-document-assistant"  
-cd rag-document-assistant  
-**Create Virtual Environment**  
-python -m venv venv  
-Activate Virtual Environment  
-**Windows:**  
-venv\Scripts\activate  
-**Install Dependencies**  
-pip install -r requirements.txt  
-**Start Ollama**  
-Ensure Ollama is installed and Phi-3 is available    
-ollama pull phi3  
-ollama serve    
-**Run the Application**  
-streamlit run app.py  
+### Clone the Repository
+
+```bash
+git clone https://github.com/Darsh0714/rag-document-assistant
+cd rag-document-assistant
+```
+
+### Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### Activate Virtual Environment
+
+**Windows**
+
+```bash
+venv\Scripts\activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Start Ollama
+
+Ensure Ollama is installed and the Phi-3 model is available.
+
+```bash
+ollama pull phi3
+ollama serve
+```
+
+### Run the Application
+
+```bash
+streamlit run app.py
+```
 
 ## Sample Use Cases
 - Business report analysis
