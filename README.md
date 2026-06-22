@@ -18,8 +18,7 @@ The system uses Retrieval-Augmented Generation (RAG) to retrieve relevant docume
 **Tech Stack**
 
 **Frontend**
-- Streamlit
-  
+- Streamlit  
 **Backend**
 - Python
   
