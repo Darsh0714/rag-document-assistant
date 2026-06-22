@@ -19,16 +19,21 @@ The system uses Retrieval-Augmented Generation (RAG) to retrieve relevant docume
 
 **Frontend**
 - Streamlit
+  
 **Backend**
 - Python
+  
 **AI & LLM**
 - LangChain
 - Ollama
 - Phi-3
+  
 **Vector Database**
 - FAISS
+  
 **Embeddings**
 - HuggingFace Embeddings
+  
 **Document Processing**
 - PyPDFLoader
 
