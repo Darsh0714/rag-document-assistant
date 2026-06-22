@@ -37,36 +37,38 @@ The system uses Retrieval-Augmented Generation (RAG) to retrieve relevant docume
 **Document Processing**
 - PyPDFLoader
 
-**Project Architecture**
+## Project Architecture
 
-PDF Document  
-      │  
-      ▼  
-Document Loader  
-      │  
-      ▼  
-Text Chunking  
-      │  
-      ▼  
-Generate Embeddings  
-      │  
-      ▼  
-FAISS Vector Store  
-      │  
-      ▼  
-Retriever  
-      │  
-      ▼  
-Relevant Context  
-      │  
-      ▼  
-Phi-3 LLM (Ollama)  
-      │  
-      ▼  
-Generated Answer  
-      │  
-      ▼  
-Streamlit Interface  
+```text
+PDF Document
+      │
+      ▼
+Document Loader
+      │
+      ▼
+Text Chunking
+      │
+      ▼
+Generate Embeddings
+      │
+      ▼
+FAISS Vector Store
+      │
+      ▼
+Retriever
+      │
+      ▼
+Relevant Context
+      │
+      ▼
+Phi-3 LLM (Ollama)
+      │
+      ▼
+Generated Answer
+      │
+      ▼
+Streamlit Interface
+``` 
 
 **How It Works**
 
